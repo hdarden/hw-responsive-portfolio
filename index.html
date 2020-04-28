@@ -4,50 +4,73 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>About Me</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <title>About Me</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
 
     </head>
 
 <body>
 
-    <div class="jumbotron jumbotron-fluid" style="background-color: navy; padding: 1rem">
-        <div class="container">
-          <h1 class="display-4" style="text-align: center; background-color: navy; font-family: 'Lobster', cursive;
-          font-family: 'Pacifico', cursive;
-          font-family: 'Caveat', cursive; color: powderblue; font-size: 6rem;">Helen Darden</h1>
-          <p class="lead"></p>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand mb-0-h1" style="background-color: teal; color: white; padding: 1.5rem; margin-left: 30px;" href="#">Helen Darden</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" style="color: teal;" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: teal;" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: teal;" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+
+  <div class="card" style="width: 65%;">
+    <div class="card-body">
+      <h5 class="card-title">About Me</h5>
+      <hr>
+          
+      <div class="me">
+          <img src="FullSizeRender.jpeg" alt="Helen Darden picture" width="200px" height="200px">
+
+      
+          <p class="footwear">Hello! I have been a footwear fit specialist for the past 5 years. I specialize in running and medical fittings. I have a Bachelors Degree in Exercise Science which has been useful in my current position.
+          </p>
+          <p class="footwear">My hobbies include collecting sneakers, traveling, and spending time with my friends and family. </p>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" style="color: white;">
+            <p>&copy Copyright</p>
         </div>
       </div>
+    </div>
+</footer>
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: powderblue;">
-        <div class="collapse navbar-collapse" style="background-color: powderblue;" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html" style="color: navy; font-size: 1.5rem; font-family: 'Lobster', cursive;
-              font-family: 'Pacifico', cursive;
-              font-family: 'Caveat', cursive;">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html" style="color: navy; font-size: 1.5rem; font-family: 'Lobster', cursive;
-              font-family: 'Pacifico', cursive;
-              font-family: 'Caveat', cursive;">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html" style="color: navy; font-size: 1.5rem; font-family: 'Lobster', cursive;
-              font-family: 'Pacifico', cursive;
-              font-family: 'Caveat', cursive;">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-    <main>
-
-    </main>
 
 </body>    
 </html>

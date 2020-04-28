@@ -1,4 +1,8 @@
 
+.card{
+    
+}
+
 img {
     float: left;
     margin: 5px;
@@ -17,5 +21,6 @@ footer {
     border-top: 10px solid; color: teal;
     height: 10%;
     padding-top: 20px;
+    position: sticky;
 
 }

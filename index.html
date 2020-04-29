@@ -1,78 +1,161 @@
 <!DOCTYPE html>
 
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    
+  </head>
 
-        <title>About Me</title>
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-
-    </head>
-
-<body style="background-color: lavender;">
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand mb-0-h1" style="background-color: teal; color: white; padding: 1.5rem; margin-left: 30px;" href="#">Helen Darden</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <body style="background-color: lavender;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a
+        class="navbar-brand mb-0-h1"
+        style="
+          background-color: teal;
+          color: white;
+          padding: 1.5rem;
+          margin-left: 30px;
+          font-size: xx-large;
+          font-family:'Times New Roman', Times, serif;
+        "
+        href="index.html"
+        >Helen Darden</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
-      
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" style="color: teal;" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: teal;" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: teal;" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-<br>
-<br>
-<br>
-<br>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" style="color: teal;" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: teal;" href="portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: teal;" href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<div class="container" style="margin-left: 30px;">
+    <br />
+    <br />
+    <br />
+    <br />
 
-  <div class="card" style="width: 65%;">
-    <div class="card-body">
-      <h5 class="card-title">About Me</h5>
-      <hr>
+    <div class="container" style="margin-left: 30px;">
+      <div class="card" style="width: 65%;">
+        <div class="card-body">
           
-      <div class="me">
-          <img src="FullSizeRender.jpeg" alt="Helen Darden picture" width="200px" height="200px">
-
-      
-          <p class="footwear">Hello! I have been a footwear fit specialist for the past 5 years. I specialize in running and medical fittings. I have a Bachelors Degree in Exercise Science which has been useful in my current position.
-          </p>
-          <p class="footwear">My hobbies include collecting sneakers, traveling, and spending time with my friends and family. </p>
-
+          <h2 class="card-title" style="font-family:'Times New Roman', Times, serif; color: teal;">About Me</h2>
+          <hr />
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row gutters">
+        <div class="col-md-4">
+          <img
+              src="FullSizeRender.jpeg"
+              alt="Helen Darden picture"
+              width="200px"
+              height="200px">
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            
+            <p class="card-text"> Hello! I have been a footwear fit specialist for the past 5 years.
+              I specialize in running and medical fittings. I have a Bachelors
+              Degree in Exercise Science which has been useful in my current
+              position.
+        
+              </p>
+            <p class="card-text">My hobbies include collecting sneakers, traveling, and spending
+              time with my friends and family.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+</div>
 </div>
 
 
 
-<footer class="footer" style="position: sticky;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12" style="color: white;">
-            <p>&copy Copyright</p>
+
+
+   <!--<div class="container" style="margin-left: 30px;">
+      <div class="card" style="width: 65%;">
+        <div class="card-body">
+          <h5 class="card-title">About Me</h5>
+          <hr />
+          
+           
+          <div class="flex-wrap justify-content-around">
+            <img
+              src="FullSizeRender.jpeg"
+              alt="Helen Darden picture"
+              width="200px"
+              height="200px"
+            />
+              Hello! I have been a footwear fit specialist for the past 5 years.
+              I specialize in running and medical fittings. I have a Bachelors
+              Degree in Exercise Science which has been useful in my current
+              position.
+        
+              My hobbies include collecting sneakers, traveling, and spending
+              time with my friends and family.
+           
+          
+            
+          </div>
+        </div>
         </div>
       </div>
-    </div>
-</footer>
+    </div>-->
+
+    <footer class="footer mt-autp py-3 card-footer text-center">
+      &copy Copyright
+    </footer>
 
 
-</body>    
+
+    <!--<footer class="footer pb-5" style="position: sticky;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12" style="color: white;">
+            <p>&copy Copyright</p>
+          </div>
+        </div>
+      </div>
+    </footer>-->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  </body>
 </html>

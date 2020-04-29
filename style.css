@@ -1,26 +1,23 @@
 
-.card{
-    
-}
 
 img {
     float: left;
+    padding:10px;
     margin: 5px;
+    word-wrap: normal;
 }
 
-.footwear{
-    text-align: justify;
-    font-size: 12px;
-}
+
 
 footer {
-    text-align: center;
-    bottom: 0;
+   /* text-align: center;*/
+    /*bottom: 0;
     background-color: grey;
     width: 100%;
     border-top: 10px solid; color: teal;
     height: 10%;
-    padding-top: 20px;
-    position: sticky;
+    padding-top: 20px;*/
+
+   /* position: sticky;*/
 
 }

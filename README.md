@@ -10,6 +10,11 @@ The "About Me" page gives a brief explanation of my background and an image of m
 # Link
 https://hdarden.github.io/hw-responsive-portfolio/
 
-<img alt="Screen Shot 2020-05-09 at 8 29 48 PM" src="https://user-images.githubusercontent.com/63661120/81488253-63e30b00-9234-11ea-8f6d-98e0c7c510e3.png">
+<img width="1434" alt="Screen Shot 2020-05-20 at 3 48 17 PM" src="https://user-images.githubusercontent.com/63661120/82490912-e9c34980-9ab1-11ea-8071-d6199ef36162.png">
+
+![Screen Shot 2020-05-20 at 3 48 30 PM](https://user-images.githubusercontent.com/63661120/82491106-3444c600-9ab2-11ea-9c03-cab77ae9a177.png)
+![Screen Shot 2020-05-20 at 3 52 48 PM](https://user-images.githubusercontent.com/63661120/82491176-4fafd100-9ab2-11ea-89b2-6cbb9f440404.png)
+![Screen Shot 2020-05-20 at 3 52 57 PM](https://user-images.githubusercontent.com/63661120/82491187-52aac180-9ab2-11ea-8836-0d4685eb9181.png)
+
 
 
